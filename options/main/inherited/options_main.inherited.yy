@@ -4,7 +4,7 @@
     "option_gameguid": "eb95e655-77e4-489b-a372-bbca436a2812",
     "option_sci_usesci": true
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
-    "targets": 461609314234257646
+    "targets": 29263750006690030
 }←7b2c4976-1e09-44e5-8256-c527145e03bb|{
-    "targets": 461609314234257646
+    "targets": 29263750006690030
 }
