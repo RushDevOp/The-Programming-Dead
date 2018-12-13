@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "69ca750c-4ce8-4e2d-94d9-c2a5b7ef00e3",
+            "Value": {
+                "id": "f2877198-4815-47ff-8707-c8c760b4d2d9",
+                "resourcePath": "sprites\\spr_creditsBackground\\spr_creditsBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "73370aa7-5175-4714-9c11-84c521c26571",
             "Value": {
                 "id": "297c339f-6b57-4187-8aeb-bed467304ab8",
@@ -276,6 +284,14 @@
                 "id": "2dd7748d-de34-4f63-9877-7b3f5ef08b32",
                 "resourcePath": "objects\\obj_zmbSound\\obj_zmbSound.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "afa1a866-2f9c-4242-b401-f025446b9cb6",
+            "Value": {
+                "id": "0985a69f-afad-4e03-b9b5-a2c60a1e9b19",
+                "resourcePath": "rooms\\rm_credits\\rm_credits.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
