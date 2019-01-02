@@ -1,6 +1,6 @@
 
 {
-    "name": "Leaderboard",
+    "name": "rm_leaderboard",
     "id": "1b6b554c-2f2b-4cb4-a70c-32da593055c8",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -62,7 +62,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "a3150330-95c6-4e40-830b-b523b61a8bd2",
+            "spriteId": "00000000-0000-0000-0000-000000000000",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,

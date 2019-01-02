@@ -66,7 +66,7 @@
             "Key": "1b6b554c-2f2b-4cb4-a70c-32da593055c8",
             "Value": {
                 "id": "5470b48c-6bcb-4a1c-bc62-3e1cba009ead",
-                "resourcePath": "rooms\\Leaderboard\\Leaderboard.yy",
+                "resourcePath": "rooms\\rm_leaderboard\\rm_leaderboard.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -143,10 +143,26 @@
             }
         },
         {
+            "Key": "608b9b46-7caf-4ee7-beef-f9b98de7c4de",
+            "Value": {
+                "id": "3119dedb-9cd1-4f14-8171-b59fdf80e1ea",
+                "resourcePath": "sprites\\enemy_boss\\enemy_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "680ea9c4-644b-4eb9-896c-7e8e4e6029da",
             "Value": {
                 "id": "49d01200-1089-4125-8c89-9036597f8ac5",
                 "resourcePath": "objects\\obj_score\\obj_score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d36280c-0226-4a00-a0e3-424c52a1459a",
+            "Value": {
+                "id": "00603750-eafa-41f2-9364-cb25330757b3",
+                "resourcePath": "objects\\obj_Leaderboard\\obj_Leaderboard.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -164,6 +180,14 @@
                 "id": "0664ee25-6c1a-4fca-9811-6a07cf32c034",
                 "resourcePath": "views\\756eb990-08bf-498a-8da2-41bd6c58a3b3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7d3a3af2-5ab9-4ae4-8984-8403eba329c3",
+            "Value": {
+                "id": "399f0fc4-5b1c-4cbd-9e71-e843372d1ec1",
+                "resourcePath": "fonts\\fnt_leaderboard\\fnt_leaderboard.yy",
+                "resourceType": "GMFont"
             }
         },
         {
