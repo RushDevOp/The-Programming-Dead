@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "4c0fdea2-e1f7-450e-8de3-a4a387cab12f",
+            "Value": {
+                "id": "d835f843-df3b-49e8-8a3a-2c4937a97691",
+                "resourcePath": "sprites\\spr_spawnAnimation\\spr_spawnAnimation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4feedc56-ac15-4197-9ee1-a94a0bb39351",
             "Value": {
                 "id": "96596f38-0a8b-4cb3-81f5-2487977723c5",
@@ -212,6 +220,14 @@
                 "id": "2f106490-f54c-4ff3-94e1-33b7d02221c4",
                 "resourcePath": "views\\89f876f3-059a-4fe0-80c0-9086f0cd0164.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8a97fbe1-a84d-4ad6-967d-b50fd88dadd9",
+            "Value": {
+                "id": "1fa998ed-a507-4b20-a5cb-500154320c9a",
+                "resourcePath": "sprites\\spr_bloodSpatter\\spr_bloodSpatter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -484,6 +500,14 @@
                 "id": "5485968f-c22c-4aa5-a797-5bf863659098",
                 "resourcePath": "fonts\\fnt_win\\fnt_win.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "fc49812e-d32d-49ba-91cd-36b97993c1c9",
+            "Value": {
+                "id": "cdcec882-cdad-48fe-9f86-856ae011a33c",
+                "resourcePath": "objects\\obj_bloodSpatter\\obj_bloodSpatter.yy",
+                "resourceType": "GMObject"
             }
         },
         {

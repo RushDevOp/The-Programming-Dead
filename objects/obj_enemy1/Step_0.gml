@@ -18,7 +18,8 @@ if(hp <= 0)
 	audio_play_sound(snd_enemyDeath, 1, 0);
 	//obj_spawner.counter--;
 	//global.enemyDead++;
-	instance_destroy();
+	instance_change(obj_bloodSpatter, true);
+	//instance_destroy();
     //if(global.enemyDead == global.counter)
 	//{
 	//	show_message("Wave Complete")
