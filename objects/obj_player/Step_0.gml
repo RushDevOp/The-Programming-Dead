@@ -4,6 +4,12 @@ if(keyboard_check(vk_left)) x = x - 4;
 if(keyboard_check(vk_up)) y = y - 4;
 if(keyboard_check(vk_down)) y = y + 4;
 
+// Set the cursor for aiming
+if mouse_check_button_pressed(mb_any)
+    {
+    window_set_cursor(cr_cross);
+    }
+
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 // Shoot
