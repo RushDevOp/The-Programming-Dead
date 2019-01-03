@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0c91e0a4-7a45-47d4-a660-b037c3395d11",
+            "Value": {
+                "id": "2ddf46a1-c87b-47b5-a214-e853c041dfd1",
+                "resourcePath": "fonts\\fnt_wave\\fnt_wave.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "15b12c7d-3426-41d0-8a27-67ae2bf74f44",
             "Value": {
                 "id": "9b49482a-d6be-4402-a6cf-8373f99e3c97",
@@ -135,11 +143,35 @@
             }
         },
         {
+            "Key": "4c0fdea2-e1f7-450e-8de3-a4a387cab12f",
+            "Value": {
+                "id": "d835f843-df3b-49e8-8a3a-2c4937a97691",
+                "resourcePath": "sprites\\spr_spawnAnimation\\spr_spawnAnimation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4feedc56-ac15-4197-9ee1-a94a0bb39351",
             "Value": {
                 "id": "96596f38-0a8b-4cb3-81f5-2487977723c5",
                 "resourcePath": "views\\4feedc56-ac15-4197-9ee1-a94a0bb39351.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5edc5588-fac6-4a47-8d67-0522890725f8",
+            "Value": {
+                "id": "e34cb337-ee39-4831-b2f6-2e7d5e4a2019",
+                "resourcePath": "sprites\\spr_trigger\\spr_trigger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "647ab986-62b3-4f64-b64b-7b785e4ba33e",
+            "Value": {
+                "id": "b6242e94-384f-4bd6-b1a5-a3446dde8038",
+                "resourcePath": "objects\\obj_enemy2\\obj_enemy2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -207,6 +239,14 @@
             }
         },
         {
+            "Key": "8a97fbe1-a84d-4ad6-967d-b50fd88dadd9",
+            "Value": {
+                "id": "1fa998ed-a507-4b20-a5cb-500154320c9a",
+                "resourcePath": "sprites\\spr_bloodSpatter\\spr_bloodSpatter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e4939be-1c7e-43d2-96eb-37912010abba",
             "Value": {
                 "id": "0617f4d0-68cf-4760-9973-6c5d3a404c7a",
@@ -236,6 +276,14 @@
                 "id": "9e250983-ae79-48fd-b054-cf7c74bdce97",
                 "resourcePath": "views\\94cd31e7-0626-442d-9159-68d903d4f5ea.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98c6cd9d-8ca4-4a40-bb10-0dac91212397",
+            "Value": {
+                "id": "cb6767de-93a3-48bd-a3b7-18264ad34c41",
+                "resourcePath": "objects\\obj_parentEnemy\\obj_parentEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -308,6 +356,14 @@
                 "id": "d7591832-15d5-4f57-b1a1-83b81cc1e8ea",
                 "resourcePath": "sounds\\snd_gameWon\\snd_gameWon.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b1e5a480-ddcf-416d-a867-f4d1bc5672aa",
+            "Value": {
+                "id": "da66e890-339f-4d78-8cfa-d8fd69ed64d7",
+                "resourcePath": "objects\\obj_Spawn\\obj_Spawn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -415,6 +471,14 @@
             }
         },
         {
+            "Key": "e14748ae-f993-4aaf-8907-e2908756383e",
+            "Value": {
+                "id": "b3b8be7c-437e-4d7d-bbc5-67cc8702ab33",
+                "resourcePath": "sprites\\spr_enemy2\\spr_enemy2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f25b58ab-a840-494b-8e00-c9e3f7773a7c",
             "Value": {
                 "id": "77ec0645-bcd6-43bf-84fc-c1d6760d7107",
@@ -460,6 +524,14 @@
                 "id": "5485968f-c22c-4aa5-a797-5bf863659098",
                 "resourcePath": "fonts\\fnt_win\\fnt_win.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "fc49812e-d32d-49ba-91cd-36b97993c1c9",
+            "Value": {
+                "id": "cdcec882-cdad-48fe-9f86-856ae011a33c",
+                "resourcePath": "objects\\obj_bloodSpatter\\obj_bloodSpatter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
