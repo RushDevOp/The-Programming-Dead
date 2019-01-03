@@ -7,16 +7,8 @@
         "9a3211a8-961b-46e6-9b8c-71ace2861f75",
         "b57680b9-dcc6-4ece-89e8-290061954f38",
         "c71fd988-8895-45de-b782-63aeaba6b9d9",
-<<<<<<< HEAD
         "cc89d950-5045-4322-8f36-1bca0d4ab0a3",
         "afa1a866-2f9c-4242-b401-f025446b9cb6"
-=======
-<<<<<<< HEAD
-        "cc89d950-5045-4322-8f36-1bca0d4ab0a3"
-=======
-        "afa1a866-2f9c-4242-b401-f025446b9cb6"
->>>>>>> JoshDev
->>>>>>> a95c1f85c23fa6cb70a3f7887ce4f53a0b5b0ce9
     ],
     "filterType": "GMRoom",
     "folderName": "rooms",

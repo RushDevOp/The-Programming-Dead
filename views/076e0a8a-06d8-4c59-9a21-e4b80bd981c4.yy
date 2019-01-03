@@ -20,10 +20,6 @@
         "9453642e-a636-4cd1-9c2e-c918f6d23d1a",
         "1a0ed11e-6812-4e9a-b016-005507f60401",
         "7ba6b50a-adf0-45d3-b6a9-166b263cdf53",
-<<<<<<< HEAD
-        "83961032-40a5-4642-9e0f-c251a513c8ac",
-        "1b6b554c-2f2b-4cb4-a70c-32da593055c8"
-=======
         "4c0fdea2-e1f7-450e-8de3-a4a387cab12f",
         "44b4cf3d-4434-4aa8-be8b-696bbcedffec",
         "8a97fbe1-a84d-4ad6-967d-b50fd88dadd9",
@@ -42,7 +38,6 @@
         "c71fd988-8895-45de-b782-63aeaba6b9d9",
         "b57680b9-dcc6-4ece-89e8-290061954f38",
         "cc89d950-5045-4322-8f36-1bca0d4ab0a3"
->>>>>>> a95c1f85c23fa6cb70a3f7887ce4f53a0b5b0ce9
     ],
     "filterType": "root",
     "folderName": "Default",
