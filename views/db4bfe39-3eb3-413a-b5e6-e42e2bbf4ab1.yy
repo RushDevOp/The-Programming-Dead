@@ -10,11 +10,21 @@
         "a3150330-95c6-4e40-830b-b523b61a8bd2",
         "9b765dbe-bd59-44f9-9e6b-be56d95f6fb2",
         "d623d45b-7215-4391-9c07-6cf4563e0926",
+<<<<<<< HEAD
         "69ca750c-4ce8-4e2d-94d9-c2a5b7ef00e3",
+=======
+<<<<<<< HEAD
+        "69ca750c-4ce8-4e2d-94d9-c2a5b7ef00e3"
+=======
+>>>>>>> a95c1f85c23fa6cb70a3f7887ce4f53a0b5b0ce9
         "5edc5588-fac6-4a47-8d67-0522890725f8",
         "e14748ae-f993-4aaf-8907-e2908756383e",
         "8a97fbe1-a84d-4ad6-967d-b50fd88dadd9",
         "4c0fdea2-e1f7-450e-8de3-a4a387cab12f"
+<<<<<<< HEAD
+=======
+>>>>>>> origin/ryanDev
+>>>>>>> a95c1f85c23fa6cb70a3f7887ce4f53a0b5b0ce9
     ],
     "filterType": "GMSprite",
     "folderName": "sprites",

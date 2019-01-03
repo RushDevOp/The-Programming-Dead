@@ -5,6 +5,10 @@
     "name": "fnt_wave",
     "AntiAlias": 1,
     "TTFName": "",
+<<<<<<< HEAD
+=======
+    "ascenderOffset": 0,
+>>>>>>> a95c1f85c23fa6cb70a3f7887ce4f53a0b5b0ce9
     "bold": true,
     "charset": 0,
     "first": 0,
