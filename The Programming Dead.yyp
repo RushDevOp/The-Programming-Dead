@@ -95,11 +95,11 @@
             }
         },
         {
-            "Key": "2c7e9cd5-aff4-4807-9d46-b7c3e7cb4576",
+            "Key": "2f5cdc7b-6720-4720-bd2b-cd78384480d1",
             "Value": {
-                "id": "1d09f438-8b98-4ffd-8dd5-fbed5d9c0f94",
-                "resourcePath": "sprites\\spr_enemy3\\spr_enemy3.yy",
-                "resourceType": "GMSprite"
+                "id": "44091b30-ec40-41b6-a68e-a8c43b3b5378",
+                "resourcePath": "objects\\obj_spawner\\obj_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
