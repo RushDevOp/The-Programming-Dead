@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -159,7 +159,6 @@
             }
         },
         {
-
             "Key": "5edc5588-fac6-4a47-8d67-0522890725f8",
             "Value": {
                 "id": "e34cb337-ee39-4831-b2f6-2e7d5e4a2019",
@@ -173,13 +172,6 @@
                 "id": "b6242e94-384f-4bd6-b1a5-a3446dde8038",
                 "resourcePath": "objects\\obj_enemy2\\obj_enemy2.yy",
                 "resourceType": "GMObject"
-
-            "Key": "5a0d73d3-30a1-4952-ae04-7abcfb73a6c7",
-            "Value": {
-                "id": "bb9a3a0a-94df-41df-9d86-3ced5be6b446",
-                "resourcePath": "fonts\\fnt_credits\\fnt_credits.yy",
-                "resourceType": "GMFont"
-
             }
         },
         {
@@ -303,17 +295,10 @@
             }
         },
         {
-
             "Key": "98c6cd9d-8ca4-4a40-bb10-0dac91212397",
             "Value": {
                 "id": "cb6767de-93a3-48bd-a3b7-18264ad34c41",
                 "resourcePath": "objects\\obj_parentEnemy\\obj_parentEnemy.yy",
-
-            "Key": "9826f923-7690-4e09-948a-22cfc5343d99",
-            "Value": {
-                "id": "a8ea9497-42c2-41b5-b5a5-3a8eb9ad598e",
-                "resourcePath": "objects\\obj_credits\\obj_credits.yy",
-
                 "resourceType": "GMObject"
             }
         },
@@ -583,7 +568,7 @@
         }
     ],
     "script_order": [
-
+        
     ],
     "tutorial": ""
 }
