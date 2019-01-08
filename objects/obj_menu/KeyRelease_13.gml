@@ -6,10 +6,11 @@ switch(menu_index)
 		audio_stop_sound(snd_menuMusic);
 		break;
 	case 1:
-		room_goto(3);
-		break;
+	room_goto(3);
+	break;
 	case 4:
 		//audio_play_sound(snd_menuOptionSelect, 0, 0);
 		game_end();
 		break;
 }
+

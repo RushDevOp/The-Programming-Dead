@@ -6,3 +6,4 @@ if (menu_index > buttons - 1) menu_index =0;
 if(menu_index  != last_selected) audio_play_sound(snd_menuOption,1,false); 
 
 last_selected  = menu_index;
+
