@@ -4,6 +4,8 @@ cooldown = 6;
 playermaxhp = 100;
 playerhp = playermaxhp;
 global.sound = snd_bullet1;
+global.bulletDamage = 15;
+count = 0;
 
 
 dead=false;

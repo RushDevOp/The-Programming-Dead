@@ -4,23 +4,38 @@ if(keyboard_check(vk_left)) x = x - 4;
 if(keyboard_check(vk_up)) y = y - 4;
 if(keyboard_check(vk_down)) y = y + 4;
 
+if(keyboard_check(ord("D"))) x = x + 4;
+if(keyboard_check(ord("A"))) x = x - 4;
+if(keyboard_check(ord("W"))) y = y - 4;
+if(keyboard_check(ord("S"))) y = y + 4;
+
 // Set the cursor for aiming
-if mouse_check_button_pressed(mb_any)
-    {
+//if mouse_check_button_pressed(mb_any)
+//    {
     window_set_cursor(cr_cross);
-    }
+//    }
 
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 // Shoot
+if(count == 50)
+{
+	mouse_clear(mb_left);
+	audio_play_sound(snd_reload, 3, 0);
+	count = 0;
+}
 if(mouse_check_button(mb_left)) && (cooldown < 1)
 {
-	instance_create_layer(x, y, "BulletsLayer", global.sound);
-	audio_play_sound(snd_bullet1, 3, 0);
+	//mouse_clear(mb_left);
+	instance_create_layer(x, y, "BulletsLayer", obj_bullet);
+	audio_play_sound(global.sound, 3, 0);
 	cooldown = 10;
+	alarm[1] = 20;
+	count++;
+	//if(mouse_check_button_pressed(mb_left))alarm[1] = 20;
+	//mouse_clear(mb_left);
 }
 cooldown = cooldown - 1;
-
 //Keep the player within the boundaries of the map
 //x=clamp(x, 20, room_width);
 //y=clamp(y, 20, room_height);
