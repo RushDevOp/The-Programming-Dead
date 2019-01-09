@@ -3,3 +3,6 @@ with(other)
 {
 	playerhp = playerhp - 10;
 }
+
+
+
