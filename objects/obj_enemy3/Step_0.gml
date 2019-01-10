@@ -14,6 +14,14 @@ if(hp3 <= 0)
 		 thescore = thescore + 10;
 		 global.playerScore = thescore;
 	}
+	if(!instance_exists(obj_powerUp))
+	{
+		var powerup = random(100);
+		if(powerup <= 10)
+		{
+			instance_create_layer(x,y,"EnemyLayer",obj_powerUp);
+		}
+	}
 	audio_sound_pitch(snd_enemyDeath, random_range(0.8, 1.2));
 	audio_play_sound(snd_enemyDeath, 1, 0);
 	instance_change(obj_bloodSpatter, true);

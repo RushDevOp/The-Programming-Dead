@@ -9,11 +9,11 @@ if(keyboard_check(ord("A"))) x = x - 4;
 if(keyboard_check(ord("W"))) y = y - 4;
 if(keyboard_check(ord("S"))) y = y + 4;
 
+//if(keyboard_check(vk_tab))window_set_fullscreen(true);
+//window_set_fullscreen()
+
 // Set the cursor for aiming
-//if mouse_check_button_pressed(mb_any)
-//    {
-    window_set_cursor(cr_cross);
-//    }
+window_set_cursor(cr_cross);
 
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
@@ -27,10 +27,13 @@ if(count == 50)
 if(mouse_check_button(mb_left)) && (cooldown < 1)
 {
 	//mouse_clear(mb_left);
-	instance_create_layer(x, y, "BulletsLayer", obj_bullet);
+	instance_create_layer(x, y, "BulletsLayer", global.bullet);
 	audio_play_sound(global.sound, 3, 0);
 	cooldown = 10;
-	alarm[1] = 20;
+	//if(alarm[1] == -1)
+	//{
+	//alarm[1] = 500;
+	//}
 	count++;
 	//if(mouse_check_button_pressed(mb_left))alarm[1] = 20;
 	//mouse_clear(mb_left);

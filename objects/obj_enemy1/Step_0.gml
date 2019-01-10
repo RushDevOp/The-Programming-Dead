@@ -15,12 +15,14 @@ if(hp <= 0)
 		 global.playerScore = thescore;
 	} 
 	//spawn a powerup if random number is less than or equal to 25
-	var powerup = random(100);
-	if(powerup <= 100)
+	if(!instance_exists(obj_powerUp))
 	{
-		instance_create_layer(x,y,"EnemyLayer",obj_powerUp);
+		var powerup = random(100);
+		if(powerup <= 10)
+		{
+			instance_create_layer(x,y,"EnemyLayer",obj_powerUp);
+		}
 	}
-	
 	audio_sound_pitch(snd_enemyDeath, random_range(0.8, 1.2));
 	audio_play_sound(snd_enemyDeath, 1, 0);
 	//obj_spawner.counter--;
