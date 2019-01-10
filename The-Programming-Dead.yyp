@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "a5158b59-fa28-46f2-8f08-6ce314d8d98a",
+            "Value": {
+                "id": "d72f7a69-26f1-4b04-958a-7409eb703983",
+                "resourcePath": "fonts\\fnt_credits\\fnt_credits.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "58a03b64-dad5-4a4f-a469-61cbe28d6c22",
@@ -568,7 +576,7 @@
         }
     ],
     "script_order": [
-        
+
     ],
     "tutorial": ""
 }

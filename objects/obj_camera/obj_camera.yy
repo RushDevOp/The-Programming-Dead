@@ -1,19 +1,10 @@
 {
-    "id": "98c6cd9d-8ca4-4a40-bb10-0dac91212397",
+    "id": "59d17fa5-7cfc-4bdf-a675-3eaede1a36c9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_parentEnemy",
+    "name": "obj_camera",
     "eventList": [
-        {
-            "id": "77852613-1786-4891-b731-ae3f16bb6796",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "98c6cd9d-8ca4-4a40-bb10-0dac91212397"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -34,5 +25,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }
