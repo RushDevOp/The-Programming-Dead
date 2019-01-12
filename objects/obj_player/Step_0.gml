@@ -1,13 +1,13 @@
 // Moving Around
-if(keyboard_check(vk_right)) x = x + 4;
-if(keyboard_check(vk_left)) x = x - 4;
-if(keyboard_check(vk_up)) y = y - 4;
-if(keyboard_check(vk_down)) y = y + 4;
+if(keyboard_check(vk_right)) x = x + global.playerSpeed;
+if(keyboard_check(vk_left)) x = x - global.playerSpeed;;
+if(keyboard_check(vk_up)) y = y - global.playerSpeed;;
+if(keyboard_check(vk_down)) y = y + global.playerSpeed;;
 
-if(keyboard_check(ord("D"))) x = x + 4;
-if(keyboard_check(ord("A"))) x = x - 4;
-if(keyboard_check(ord("W"))) y = y - 4;
-if(keyboard_check(ord("S"))) y = y + 4;
+if(keyboard_check(ord("D"))) x = x + global.playerSpeed;;
+if(keyboard_check(ord("A"))) x = x - global.playerSpeed;;
+if(keyboard_check(ord("W"))) y = y - global.playerSpeed;;
+if(keyboard_check(ord("S"))) y = y + global.playerSpeed;;
 
 //if(keyboard_check(vk_tab))window_set_fullscreen(true);
 //window_set_fullscreen()
@@ -18,12 +18,7 @@ window_set_cursor(cr_cross);
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 // Shoot
-if(count == 50)
-{
-	mouse_clear(mb_left);
-	audio_play_sound(snd_reload, 3, 0);
-	count = 0;
-}
+
 if(mouse_check_button(mb_left)) && (cooldown < 1)
 {
 	//mouse_clear(mb_left);
@@ -34,7 +29,6 @@ if(mouse_check_button(mb_left)) && (cooldown < 1)
 	//{
 	//alarm[1] = 500;
 	//}
-	count++;
 	//if(mouse_check_button_pressed(mb_left))alarm[1] = 20;
 	//mouse_clear(mb_left);
 }

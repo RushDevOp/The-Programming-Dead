@@ -1,5 +1,5 @@
 // Set Health and speed variables for enemy (zombie)
-maxhp = 100;
+maxhp = choose(100, 110, 120, 130);
 hp = maxhp;
-spd = max(3,random(2));
+spd = max(4,random(4));
 //global.enemyDead = 0;

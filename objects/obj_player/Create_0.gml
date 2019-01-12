@@ -6,7 +6,7 @@ playerhp = playermaxhp;
 global.sound = snd_bullet1;
 global.bulletDamage = 15;
 global.bullet = obj_bullet;
-count = 0;
+global.playerSpeed = 4;
 
 
 dead=false;
