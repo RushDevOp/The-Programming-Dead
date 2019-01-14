@@ -34,7 +34,7 @@ if(hp <= 0)
 		if(!instance_exists(obj_powerUp3))
 	{
 		var powerup = random(100);
-		if(powerup <= 20)
+		if(powerup <= 100)
 		{
 			instance_create_layer(x,y,"EnemyLayer",obj_powerUp3);
 		}
