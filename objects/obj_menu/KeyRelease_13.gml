@@ -13,6 +13,10 @@ switch(menu_index)
 	room_goto(3);
 	break;
 	
+	case 3:
+	room_goto(rm_controls);
+	break;
+	
 	case 4:
 		//audio_play_sound(snd_menuOptionSelect, 0, 0);
 		game_end();
