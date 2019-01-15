@@ -14,7 +14,7 @@ if(hp3 <= 0)
 		 thescore = thescore + 10;
 		 global.playerScore = thescore;
 	}
-	if(!instance_exists(obj_powerUp) && global.bullet != obj_bullet2)
+	if(!instance_exists(obj_powerUp) && !instance_exists(obj_powerUp1B))
 	{
 		var powerup = random(100);
 		if(powerup <= 10)
@@ -22,7 +22,7 @@ if(hp3 <= 0)
 			instance_create_layer(x,y,"EnemyLayer",obj_powerUp);
 		}
 	}
-	if(!instance_exists(obj_powerUp2) && global.bullet != obj_bullet3)
+	if(!instance_exists(obj_powerUp2) && !instance_exists(obj_powerUp2B))
 	{
 		var powerup = random(100);
 		if(powerup <= 5)
@@ -30,7 +30,7 @@ if(hp3 <= 0)
 			instance_create_layer(x,y,"EnemyLayer",obj_powerUp2);
 		}
 	}
-			if(!instance_exists(obj_powerUp3) && global.playerSpeed != 5)
+			if(!instance_exists(obj_powerUp3) && !instance_exists(obj_powerUp3B))
 	{
 		var powerup = random(100);
 		if(powerup <= 30)

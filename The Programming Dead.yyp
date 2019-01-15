@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "27ae888d-c8c3-42bb-89f3-603ec5399115",
+            "Value": {
+                "id": "e06f6ab3-fbe2-4bab-827e-464d8750d756",
+                "resourcePath": "objects\\obj_powerUp1B\\obj_powerUp1B.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2944a102-b775-4cf5-8a95-4e47691ee535",
             "Value": {
                 "id": "79d7bd15-635f-4814-b9e3-e9bd2383b85e",
@@ -148,6 +156,14 @@
                 "id": "5ce43dd0-36b7-4772-acd3-5619dd9eabb5",
                 "resourcePath": "tilesets\\til_background\\til_background.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "3d89026b-540c-4570-8e01-7a894b4c3a82",
+            "Value": {
+                "id": "a275ce7a-5e8d-4efc-ad78-8bba71e6c998",
+                "resourcePath": "sounds\\snd_waveHavingFun\\snd_waveHavingFun.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -375,6 +391,14 @@
             }
         },
         {
+            "Key": "871dcbfd-e823-4148-9545-219c86f0ed06",
+            "Value": {
+                "id": "582a10c6-e252-4401-bf64-baa1bea34074",
+                "resourcePath": "objects\\obj_powerUp2B\\obj_powerUp2B.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "881c4f4e-a0ce-4a8a-92a9-d833f102d627",
             "Value": {
                 "id": "45029ef0-60f2-4902-888d-ab8e2f10bef7",
@@ -411,6 +435,14 @@
             "Value": {
                 "id": "3bac6525-f67d-4001-8a45-f8de3f61e110",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9451f731-578e-441b-8018-0c011a068acd",
+            "Value": {
+                "id": "6ff50084-b651-4bf8-a8ac-91b920646cdb",
+                "resourcePath": "objects\\obj_powerUp3B\\obj_powerUp3B.yy",
                 "resourceType": "GMObject"
             }
         },

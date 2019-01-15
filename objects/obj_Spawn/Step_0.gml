@@ -29,6 +29,7 @@ if (triggered)
 		{
 			
 			current_wave++;
+			audio_play_sound(snd_waveHavingFun, 0, 0);
 			timer = 0;
 		}	
 	}
