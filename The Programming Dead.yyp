@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "061e8c85-d250-4140-8481-edabc5bac0d3",
+            "Value": {
+                "id": "d461dea7-5f1c-4419-a6c0-b33ca87a1343",
+                "resourcePath": "objects\\obj_story\\obj_story.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "076e0a8a-06d8-4c59-9a21-e4b80bd981c4",
             "Value": {
                 "id": "d45e6cb0-5ef2-45f9-86a5-d18069d6ad6b",
@@ -44,6 +52,14 @@
                 "id": "b22d5a8a-8d32-4d54-adf7-dd7328e1050b",
                 "resourcePath": "sprites\\spr_powerUp\\spr_powerUp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "09f39b25-2424-4d93-89eb-38cf1c952766",
+            "Value": {
+                "id": "e8c792d5-1e82-40fe-9b1a-c05f3d929bb7",
+                "resourcePath": "sounds\\snd_storyMusic\\snd_storyMusic.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -116,6 +132,14 @@
                 "id": "3d952746-b8c9-4ae7-99dc-821f88832561",
                 "resourcePath": "sounds\\snd_menuMusic\\snd_menuMusic.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "25fcd769-b0be-4c67-a957-1ae9eaa72047",
+            "Value": {
+                "id": "75caa80e-3b8e-4e27-8927-cc155806ec92",
+                "resourcePath": "rooms\\rm_story\\rm_story.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -607,6 +631,14 @@
             }
         },
         {
+            "Key": "b3da3ec1-cd6e-4057-a4a2-debd77d17a2c",
+            "Value": {
+                "id": "c736ed33-c08c-47e3-a0f2-a3088b87c681",
+                "resourcePath": "sprites\\spr_story\\spr_story.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b45cadfe-3ac8-44da-ae0f-dbbce237e9b8",
             "Value": {
                 "id": "e87f6466-66a1-48ce-b809-7b049a78019f",
@@ -627,6 +659,14 @@
             "Value": {
                 "id": "0db36b1e-d141-4030-8951-0c00ee5eb3cb",
                 "resourcePath": "objects\\obj_menuMusic\\obj_menuMusic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bdac3251-bc16-427e-856a-67bb9d0eae50",
+            "Value": {
+                "id": "58b49807-42f9-4af1-9a7d-57340e19f0f1",
+                "resourcePath": "objects\\obj_storyMusic\\obj_storyMusic.yy",
                 "resourceType": "GMObject"
             }
         },
