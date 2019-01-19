@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "16b7820c-ac4a-400d-8350-63bcba626ad3",
+            "Value": {
+                "id": "deff51cd-9d76-4f57-87f9-4da1099d8f1c",
+                "resourcePath": "sprites\\spr_enemySpawnCrater\\spr_enemySpawnCrater.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "189cad79-1ecf-4b15-9e70-2d344353e1a8",
             "Value": {
                 "id": "da2a8662-b84f-4b70-bd7a-66e5b44ab25c",
@@ -191,11 +199,27 @@
             }
         },
         {
+            "Key": "4367e6f8-511a-4c19-9c31-e2390f858b3b",
+            "Value": {
+                "id": "240910b6-53ca-4698-9fee-9d461da12ea3",
+                "resourcePath": "sprites\\spr_playerBlood\\spr_playerBlood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44b4cf3d-4434-4aa8-be8b-696bbcedffec",
             "Value": {
                 "id": "435a34a7-39cd-4d1c-aed1-a5b2c1ce0b12",
                 "resourcePath": "sprites\\spr_enemy1\\spr_enemy1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46b73b7f-55f1-4fa3-bd49-bc379f0cc7cb",
+            "Value": {
+                "id": "28ba7dc7-f118-49a4-a892-57f21680c404",
+                "resourcePath": "objects\\obj_playerBloodSpatter\\obj_playerBloodSpatter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -495,6 +519,14 @@
             }
         },
         {
+            "Key": "9dbd126c-563d-4fbf-9fa0-bfdcefbfc818",
+            "Value": {
+                "id": "01dfa419-c22b-4687-a466-f645f3df1be8",
+                "resourcePath": "objects\\obj_enemySpawnCrater\\obj_enemySpawnCrater.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a3150330-95c6-4e40-830b-b523b61a8bd2",
             "Value": {
                 "id": "9e96d550-100e-4f78-8ae2-d16d08b1955f",
@@ -524,6 +556,14 @@
                 "id": "c9f35999-e408-4b58-b375-34db82e26ecc",
                 "resourcePath": "sounds\\snd_menuOptionSelect\\snd_menuOptionSelect.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a9981bfa-792b-47c2-99a7-d8621377f262",
+            "Value": {
+                "id": "e51bb161-d9f8-4931-8b4f-b62ab4905190",
+                "resourcePath": "sprites\\spr_tree\\spr_tree.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -780,6 +820,14 @@
                 "id": "5485968f-c22c-4aa5-a797-5bf863659098",
                 "resourcePath": "fonts\\fnt_win\\fnt_win.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "fc28d088-4351-4a65-9e88-493f4b0dbdaf",
+            "Value": {
+                "id": "2b4c2ff9-4e1f-4522-aec0-2f03a019b275",
+                "resourcePath": "views\\fc28d088-4351-4a65-9e88-493f4b0dbdaf.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

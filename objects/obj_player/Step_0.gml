@@ -45,8 +45,11 @@ if(y >= room_height - 48) y = room_height - 48;
 if(playerhp <= 0 && dead==false)
 {
 	dead=true;
+	instance_create_layer(obj_player.x, obj_player.y, "DeathLayer", obj_playerBloodSpatter);
+	//instance_deactivate_object(obj_player);
+	global.playerSpeed = 0;
 	audio_play_sound(snd_playerDeath, 0, 0);
-	alarm[0] = 30;
+	alarm[0] = 60;
 	//if(alarm[0] = 0) game_restart();
 	//game_restart();
 } 
