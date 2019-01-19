@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "07722830-cd27-4be7-afb0-247ce0563c56",
+            "Value": {
+                "id": "2fdbc1dc-218a-429c-8168-e1314a19091b",
+                "resourcePath": "objects\\obj_buttonControls\\obj_buttonControls.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07ba48a8-f80b-4e5a-b049-00fff1f68396",
             "Value": {
                 "id": "b22d5a8a-8d32-4d54-adf7-dd7328e1050b",
@@ -114,7 +122,7 @@
             "Key": "1b6b554c-2f2b-4cb4-a70c-32da593055c8",
             "Value": {
                 "id": "5470b48c-6bcb-4a1c-bc62-3e1cba009ead",
-                "resourcePath": "rooms\\Leaderboard\\Leaderboard.yy",
+                "resourcePath": "rooms\\rm_leaderboard\\rm_leaderboard.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -791,6 +799,14 @@
             }
         },
         {
+            "Key": "d635cd71-6649-4280-ad2f-f96d7fd3842a",
+            "Value": {
+                "id": "9137a47b-12ba-4537-b482-cdd90a86495d",
+                "resourcePath": "objects\\obj_buttonCredits\\obj_buttonCredits.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d808a579-a119-4f8b-8193-344b2c17c22f",
             "Value": {
                 "id": "ae84dcee-247f-40af-be05-8f8841fd175b",
@@ -812,6 +828,14 @@
                 "id": "dfadfd0d-032d-48af-9b09-26bf52c0c43a",
                 "resourcePath": "views\\db4bfe39-3eb3-413a-b5e6-e42e2bbf4ab1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dc702a64-7e7d-4c3c-b038-ee75ad72f36d",
+            "Value": {
+                "id": "0b881bb5-8255-40cf-b1cc-ab323ad93ffd",
+                "resourcePath": "objects\\obj_buttonLeaderboard\\obj_buttonLeaderboard.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -915,6 +939,14 @@
             "Value": {
                 "id": "cdcec882-cdad-48fe-9f86-856ae011a33c",
                 "resourcePath": "objects\\obj_bloodSpatter\\obj_bloodSpatter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd5210b6-9e32-4099-b9fc-0e55749c48b7",
+            "Value": {
+                "id": "c66301a0-7c82-4cbd-ab2a-ec8303090c53",
+                "resourcePath": "objects\\obj_buttonQuit\\obj_buttonQuit.yy",
                 "resourceType": "GMObject"
             }
         },

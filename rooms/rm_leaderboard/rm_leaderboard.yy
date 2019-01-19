@@ -1,6 +1,6 @@
 
 {
-    "name": "Leaderboard",
+    "name": "rm_leaderboard",
     "id": "1b6b554c-2f2b-4cb4-a70c-32da593055c8",
     "creationCodeFile": "",
     "inheritCode": false,
