@@ -25,17 +25,9 @@ if(mouse_check_button(mb_left)) && (cooldown < 1)
 	instance_create_layer(x, y, "BulletsLayer", global.bullet);
 	audio_play_sound(global.sound, 3, 0);
 	cooldown = 10;
-	//if(alarm[1] == -1)
-	//{
-	//alarm[1] = 500;
-	//}
-	//if(mouse_check_button_pressed(mb_left))alarm[1] = 20;
-	//mouse_clear(mb_left);
 }
 cooldown = cooldown - 1;
 //Keep the player within the boundaries of the map
-//x=clamp(x, 20, room_width);
-//y=clamp(y, 20, room_height);
 if(x <= 48) x = 48;
 if(x >= room_width - 48) x = room_width - 48;
 if(y <= 48) y = 48;
@@ -50,6 +42,4 @@ if(playerhp <= 0 && dead==false)
 	global.playerSpeed = 0;
 	audio_play_sound(snd_playerDeath, 0, 0);
 	alarm[0] = 60;
-	//if(alarm[0] = 0) game_restart();
-	//game_restart();
 } 
