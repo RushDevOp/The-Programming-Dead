@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "11f7d329-c678-4f1e-9415-1038dd383988",
+            "Value": {
+                "id": "eb2f00de-7506-4005-b414-a1295724071c",
+                "resourcePath": "objects\\obj_buttonRetry\\obj_buttonRetry.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1255c234-790c-412c-b8dd-af2b8224f340",
             "Value": {
                 "id": "ef069422-a23f-4da3-84e3-63ac879ef7f0",
@@ -395,6 +403,14 @@
             "Value": {
                 "id": "b6242e94-384f-4bd6-b1a5-a3446dde8038",
                 "resourcePath": "objects\\obj_enemy2\\obj_enemy2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "65dce488-e2c4-4403-96ac-d39824b6c853",
+            "Value": {
+                "id": "0168b917-7077-4788-baff-b76fcc3e49aa",
+                "resourcePath": "objects\\obj_buttonMainMenu\\obj_buttonMainMenu.yy",
                 "resourceType": "GMObject"
             }
         },
