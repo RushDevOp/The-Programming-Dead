@@ -20,7 +20,7 @@ if(hp <= 0)
 		var powerup = random(100);
 		if(powerup <= 10)
 		{
-			instance_create_layer(x,y,"EnemyLayer",obj_powerUp);
+			instance_create_layer(x,y,"Instances",obj_powerUp);
 		}
 	}
 	if(!instance_exists(obj_powerUp2) && !instance_exists(obj_powerUp2B))
@@ -28,7 +28,7 @@ if(hp <= 0)
 		var powerup = random(100);
 		if(powerup <= 100)
 		{
-			instance_create_layer(x,y,"EnemyLayer",obj_powerUp2);
+			instance_create_layer(x,y,"Instances",obj_powerUp2);
 		}
 	}
 		if(!instance_exists(obj_powerUp3) && !instance_exists(obj_powerUp3B))
@@ -36,7 +36,7 @@ if(hp <= 0)
 		var powerup = random(100);
 		if(powerup <= 30)
 		{
-			instance_create_layer(x,y,"EnemyLayer",obj_powerUp3);
+			instance_create_layer(x,y,"Instances",obj_powerUp3);
 		}
 	}
 	audio_sound_pitch(snd_enemyDeath, random_range(0.8, 1.2));
@@ -44,6 +44,7 @@ if(hp <= 0)
 	//obj_spawner.counter--;
 	//global.enemyDead++;
 	instance_change(obj_bloodSpatter, true);
+	instance_create_layer(x, y, "BackgroundImageLayerEnemy", obj_enemyBlood);
 	//instance_destroy();
     //if(global.enemyDead == global.counter)
 	//{
