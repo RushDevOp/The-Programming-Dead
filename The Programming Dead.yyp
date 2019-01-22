@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "229d62bb-0669-4b2b-81b3-8569f1de46ce",
+            "Value": {
+                "id": "e7720e31-90fb-4956-85b8-1f4ed5d83169",
+                "resourcePath": "sprites\\spr_tireMarks\\spr_tireMarks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25e5130e-f7db-4725-a0de-abe03a321f9f",
             "Value": {
                 "id": "3d952746-b8c9-4ae7-99dc-821f88832561",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "49c01cc2-c87d-460a-9fe4-620ae53536ac",
+            "Value": {
+                "id": "b35a0f2f-5ddf-4d31-b6b2-fdd6da2d41ad",
+                "resourcePath": "sprites\\spr_rock1\\spr_rock1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b2f27ed-5dc0-4ae5-902d-8a62a9108a43",
             "Value": {
                 "id": "7750d787-61c7-4e6d-a073-63b0e6506cca",
@@ -359,6 +375,22 @@
             }
         },
         {
+            "Key": "51e0bf36-3757-41f4-b9bd-4a93fac598e9",
+            "Value": {
+                "id": "12e12dc9-9828-4db4-a97b-ab5c1283d78e",
+                "resourcePath": "objects\\obj_oilStain\\obj_oilStain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "53f94ab0-00a0-469b-9087-3e84eceb279f",
+            "Value": {
+                "id": "f8679500-3692-411f-a194-4a140341552a",
+                "resourcePath": "objects\\obj_tireMarks\\obj_tireMarks.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "540bbeaf-da4e-43a7-9c3a-40636f6f9b1e",
             "Value": {
                 "id": "cda190f7-7ae2-4027-88fa-7ae043f575d0",
@@ -372,6 +404,14 @@
                 "id": "2beb0f99-de82-4e71-80f8-63789e7d9f8a",
                 "resourcePath": "fonts\\fnt_credits\\fnt_credits.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "56f92cf2-9c47-429c-ab10-d26818237236",
+            "Value": {
+                "id": "01a9ef7c-64f1-4100-8c45-70f808bd4fd4",
+                "resourcePath": "sprites\\spr_rock2\\spr_rock2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -476,6 +516,14 @@
                 "id": "3ba64083-7f4a-43ec-a89a-68adaeb9c7ee",
                 "resourcePath": "sprites\\spr_muteBox\\spr_muteBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "720629cb-1ef3-42b8-9608-15396e74c2cb",
+            "Value": {
+                "id": "097d7151-bdd7-41fb-90e8-2af8ff434e7f",
+                "resourcePath": "objects\\obj_rock2\\obj_rock2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -919,6 +967,14 @@
             }
         },
         {
+            "Key": "cbb261de-ff4d-4ad6-aad5-17b70eb39982",
+            "Value": {
+                "id": "bff91625-957c-4982-acb0-f574b8bbc7d2",
+                "resourcePath": "objects\\obj_rock1\\obj_rock1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc89d950-5045-4322-8f36-1bca0d4ab0a3",
             "Value": {
                 "id": "48d20860-aecd-4381-90e0-4c7e1f18b782",
@@ -1044,6 +1100,14 @@
                 "id": "b9c854d4-7f0c-40c9-8540-5499ab6fe95f",
                 "resourcePath": "views\\e07d1f20-0fdc-4e6c-b407-ec8a409d81d3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e0c07834-7c73-4165-9a9a-b493c2162603",
+            "Value": {
+                "id": "cbf31c23-92b5-4fa5-8590-be41a587e19d",
+                "resourcePath": "sprites\\spr_oilStain\\spr_oilStain.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
