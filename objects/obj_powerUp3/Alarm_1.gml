@@ -1,2 +1,2 @@
-global.playerSpeed = 4;
-instance_destroy();
+//global.playerSpeed = 4;
+//instance_destroy();

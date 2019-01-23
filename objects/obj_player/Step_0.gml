@@ -42,9 +42,9 @@ if(playerhp <= 0 && dead==false)
 	global.playerSpeed = 0;
 	audio_play_sound(snd_playerDeath, 0, 0);
 	alarm[0] = 60;
+	
 	mainCharacterArray[5] = noone;
     replaced = 0;
-
      var i, file;
      file = file_text_open_read(working_directory + "\Leaderboard.txt");
      for (i = 0; i < 5 ; i += 1)
@@ -59,7 +59,8 @@ if(playerhp <= 0 && dead==false)
 		temp2 = 0;
 	   for (i = 0; i < 5 ; i += 1)
        {
-			if(mainCharacterArray[i] < temp){
+			if(mainCharacterArray[i] < temp)
+			{
 				temp2 = mainCharacterArray[i];
 				mainCharacterArray[i]  = temp;
 				temp = temp2;

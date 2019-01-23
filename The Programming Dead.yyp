@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "69c5fd8b-732c-4611-a668-570fd3458cea",
+            "Value": {
+                "id": "936a86d6-a4ad-439e-8783-7c1adb933c3b",
+                "resourcePath": "sprites\\spr_teamLogo\\spr_teamLogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "69ca750c-4ce8-4e2d-94d9-c2a5b7ef00e3",
             "Value": {
                 "id": "f2877198-4815-47ff-8707-c8c760b4d2d9",
@@ -1068,6 +1076,14 @@
                 "id": "dfadfd0d-032d-48af-9b09-26bf52c0c43a",
                 "resourcePath": "views\\db4bfe39-3eb3-413a-b5e6-e42e2bbf4ab1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dc07b9d6-b560-4b53-a122-667e36bc9392",
+            "Value": {
+                "id": "0b54b588-088e-47af-b00b-49879ddfc27f",
+                "resourcePath": "fonts\\fnt_smallCredits\\fnt_smallCredits.yy",
+                "resourceType": "GMFont"
             }
         },
         {
