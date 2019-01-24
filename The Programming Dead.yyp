@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "3abbd14c-53eb-4ffb-a322-1880e7546b50",
+            "Value": {
+                "id": "2006aebf-fd08-4882-9d66-712a1e140171",
+                "resourcePath": "sprites\\spr_enemyBossAttack\\spr_enemyBossAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d89026b-540c-4570-8e01-7a894b4c3a82",
             "Value": {
                 "id": "a275ce7a-5e8d-4efc-ad78-8bba71e6c998",
@@ -647,6 +655,14 @@
             }
         },
         {
+            "Key": "882f4bab-4382-4ac1-a912-81298c28dbcc",
+            "Value": {
+                "id": "0736e9f2-5de2-4c41-ac4c-5f2db4486bc1",
+                "resourcePath": "sprites\\spr_enemyBossDeath\\spr_enemyBossDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "889cada5-3a36-4651-8696-a27392be0a78",
             "Value": {
                 "id": "4252943a-4318-4409-8a64-0ddf3794faeb",
@@ -676,6 +692,14 @@
                 "id": "0617f4d0-68cf-4760-9973-6c5d3a404c7a",
                 "resourcePath": "objects\\obj_endMenu\\obj_endMenu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8eacd9cb-62d7-4fcd-872e-804515d4bdc3",
+            "Value": {
+                "id": "3b2b6255-1ebf-4db6-8009-f0037419403c",
+                "resourcePath": "sprites\\spr_enemyBoss\\spr_enemyBoss.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
