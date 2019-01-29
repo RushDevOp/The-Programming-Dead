@@ -1,7 +1,7 @@
 menu_x =x;
 menu_y =y; 
 button_h =70;
-
+audio_stop_all();
 
 
 //buttons

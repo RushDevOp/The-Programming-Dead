@@ -32,7 +32,10 @@ if(x <= 48) x = 48;
 if(x >= room_width - 48) x = room_width - 48;
 if(y <= 48) y = 48;
 if(y >= room_height - 48) y = room_height - 48;
-
+if(playerhp < 100)
+{
+	playerhp++;
+}
 //if player health is 0, game will restart
 if(playerhp <= 0 && dead==false)
 {
@@ -40,6 +43,9 @@ if(playerhp <= 0 && dead==false)
 	instance_create_layer(obj_player.x, obj_player.y, "DeathLayer", obj_playerBloodSpatter);
 	//instance_deactivate_object(obj_player);
 	global.playerSpeed = 0;
+	global.bullet = obj_bulletBlank;
+	global.sound = snd_bulletBlank;
+    audio_stop_all();
 	audio_play_sound(snd_playerDeath, 0, 0);
 	alarm[0] = 60;
 	

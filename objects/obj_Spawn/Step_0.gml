@@ -14,14 +14,19 @@ if (triggered)
 	}
 	//Increase timer
 	timer++;
-	
+	//if(current_wave == 5)
+	//		{
+	//			audio_stop_sound(snd_gameMusic);
+	//			audio_play_sound(snd_bossMusic, 0, 0);
+	//		}
 	//Next wave or end spawner when all enemies have died
 	if(remaining[current_wave] <=0)
 	{
 		if(current_wave == total_waves)
 		{
 		    instance_destroy();
-			audio_stop_sound(snd_gameMusic);
+			//audio_stop_sound(snd_gameMusic);
+			audio_stop_all();
 			
 			//Leaderboard
 			mainCharacterArray[5] = noone;
@@ -58,7 +63,7 @@ if (triggered)
 			}
 			file_text_close(file);
 			//Go to the Game win screen
-			room_goto(rm_endScreen);
+			room_goto(rm_arenaBoss);
 		}
 		else
 		{
