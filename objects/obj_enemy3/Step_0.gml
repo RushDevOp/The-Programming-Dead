@@ -17,7 +17,7 @@ if(hp3 <= 0)
 	if(!instance_exists(obj_powerUp) && !instance_exists(obj_powerUp1B))
 	{
 		var powerup = random(100);
-		if(powerup <= 10)
+		if(powerup <= 15)
 		{
 			instance_create_layer(x,y,"Instances",obj_powerUp);
 		}
@@ -25,7 +25,7 @@ if(hp3 <= 0)
 	if(!instance_exists(obj_powerUp2) && !instance_exists(obj_powerUp2B))
 	{
 		var powerup = random(100);
-		if(powerup <= 5)
+		if(powerup <= 10)
 		{
 			instance_create_layer(x,y,"Instances",obj_powerUp2);
 		}
