@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "2c506c08-2541-4a37-a0b8-52b771caa11e",
+            "Value": {
+                "id": "1dea2d32-4d55-4067-b492-5f2867494d24",
+                "resourcePath": "objects\\obj_bossWave\\obj_bossWave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f5cdc7b-6720-4720-bd2b-cd78384480d1",
             "Value": {
                 "id": "d25597df-c1f6-4945-9887-1b667a8d0727",

@@ -4,7 +4,7 @@
 //{
 	instance_create_layer(random(room_width), random(room_height), "Instances", obj_enemySpawner);
 	//global.counter++;
-	if(global.counter <= 18)
+	if(global.counter <= 48)
 	{
 		alarm[0] = spawnrate;
 
