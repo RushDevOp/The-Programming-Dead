@@ -2,7 +2,7 @@
 //if player exists, move towards the player every frame
 if(instance_exists(obj_player))
 {
-	audio_play_sound(snd_bossAttack, 0, 0);
+	audio_play_sound(snd_bossAttack, 2, 0);
 	move_towards_point(obj_player.x, obj_player.y, 0);
 }
 image_angle = direction;
