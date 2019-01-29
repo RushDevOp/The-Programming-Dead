@@ -3,10 +3,14 @@
 if(instance_exists(obj_player))
 {
 	move_towards_point(obj_player.x, obj_player.y, global.bossSpd);
-	if(distance_to_object(obj_player) < 50)
+	if(distance_to_object(obj_player) < 135)
 	{
-		instance_change(obj_enemyBossAttack, true);
+		instance_change(obj_enemyBossAttack, false);
 	}
+}
+if(global.bossHp < 800)
+{
+	global.bossHp = global.bossHp + 0.20;
 }
 image_angle = direction;
 

@@ -22,7 +22,8 @@ image_angle = point_direction(x, y, mouse_x, mouse_y);
 if(mouse_check_button(mb_left)) && (cooldown < 1)
 {
 	//mouse_clear(mb_left);
-	instance_create_layer(x, y, "BulletsLayer", global.bullet);
+	var bullet = instance_create_layer(x + lengthdir_x(64, image_angle), y + lengthdir_y(64, image_angle), "BulletsLayer", global.bullet);
+	bullet.direction = image_angle;
 	audio_play_sound(global.sound, 3, 0);
 	cooldown = 10;
 }

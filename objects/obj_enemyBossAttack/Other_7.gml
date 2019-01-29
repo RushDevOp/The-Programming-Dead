@@ -1,1 +1,1 @@
-instance_change(obj_enemyBoss, true);
+instance_change(obj_enemyBoss, false);

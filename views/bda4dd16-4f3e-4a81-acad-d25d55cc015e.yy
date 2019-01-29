@@ -18,7 +18,9 @@
         "a1829307-29b7-4367-b108-5bb0af404090",
         "bdac3251-bc16-427e-856a-67bb9d0eae50",
         "680ea9c4-644b-4eb9-896c-7e8e4e6029da",
-        "236e7e4b-d120-473e-af77-357948c9faca"
+        "236e7e4b-d120-473e-af77-357948c9faca",
+        "21e91371-09d8-407e-9a00-280de6d03db4",
+        "63eeee95-dc94-40be-99c9-cacac2ea920c"
     ],
     "filterType": "GMObject",
     "folderName": "Menus",

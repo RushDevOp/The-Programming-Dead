@@ -17,6 +17,6 @@ if(triggered)
 	+"\nTotal Waves: " +string(total_waves+1)
 	+"\nCurrent Wave: " + string(current_wave+1)
 	);
-	draw_set_font(fnt_score);
-	draw_text(cx+cw/1.090, cy+700, string(current_wave+1));
+	draw_set_font(fnt_wave2);
+	draw_text(cx+cw/1.095, cy+670, string(current_wave+1));
 }
