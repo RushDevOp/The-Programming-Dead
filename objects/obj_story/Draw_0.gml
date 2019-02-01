@@ -9,11 +9,11 @@ draw_text_ext(text_x, text_y,
 "Mike then realizes he is no longer a professor and no longer needs to pretend to be dead. \n " +
 "Mike sits up and looks around, he can see that he is in a dark, abandoned area. \n " + 
 "He notices a being in the distance and attempts to call out to it. \n " +
-"but shockingly, Mikes voice does not work. This is a rare occurence. \n " +
+"But shockingly, Mikes voice does not work. This is a rare occurence. \n " +
 "Mike then stands up and appraches the being. \n " +
 "he can smell a pungent odour around him. \n "+
 "At first Mike thought it was just him.. but to his surprise... it wasn't.\n  "+
-"The smell was getting stronger, as the thing got closer to Mike \n "+
+"The smell was getting stronger, as the being got closer to Mike \n "+
 " 'Gavin is that you?' Shouted Mike, \n " +
 "its mouth was bloody, and it was growling and making unusual noises. \n "+
 "Cut it out Gavin! Laughed Mike \n "+
@@ -28,3 +28,4 @@ draw_text_ext(text_x, text_y,
 "The past students he taught in Moose Jaw were getting their revenge..  \n "+
 "In anger, Mike looks to the sky, and cries out... \n " +
 " THE PROGRAMMING DEAD!!! ", 100, 900);
+
